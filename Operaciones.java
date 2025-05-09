@@ -4,12 +4,12 @@ public class Operaciones {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingresa cuatro numeros: ");
-        int numero1 = scanner.nextInt();
-        int numero2 = scanner.nextInt();
-        int numero3 = scanner.nextInt();
-        int numero4 = scanner.nextInt();
+        double numero1 = scanner.nextDouble();
+        double numero2 = scanner.nextDouble();
+        double numero3 = scanner.nextDouble();
+        double numero4 = scanner.nextDouble();
 
-        int suma = numero1+numero2+numero3+numero4;
+        double suma = numero1+numero2+numero3+numero4;
 
         System.out.println("La suma de estos 4 numeros es: " + suma);
     }
